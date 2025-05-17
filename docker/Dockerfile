@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM scratch:${VERSION}
+FROM quay.io/toschneck/sysbox-kkp-edge-ubuntu-22.04:${VERSION}
 
 ARG ARCH
 ARG VERSION
